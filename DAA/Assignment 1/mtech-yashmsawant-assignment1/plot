@@ -1,0 +1,25 @@
+set term png
+
+set output 'sol_1.png'
+plot 'data.dat' using 1:4 title 'Mergesort-Iterative', \
+'data.dat' using 1:5 title 'Mergesort-Recursive'
+
+set output 'sol_2.png'
+plot 'data.dat' using 1:2 title 'Heapsort-Iterative', \
+'data.dat' using 1:3 title 'Heapsort-Recursive'
+
+set output 'sol_3.png'
+plot 'data.dat' using 1:6 title 'Quicksort-Iterative', \
+'data.dat' using 1:7 title 'Quicksort-Recursive'
+
+set output 'sol_4.png'
+plot 'data.dat' using 1:5 title 'Mergesort-Recursive', \
+'data.dat' using 1:3 title 'Heapsort-Recursive', \
+'data.dat' using 1:7 title 'Quicksort-Recursive'
+
+set output 'sol_5.png'
+plot 'data.dat' using 1:4 title 'Mergesort-Iterative', \
+'data.dat' using 1:2 title 'Heapsort-Iterative', \
+'data.dat' using 1:6 title 'Quicksort-Iterative'
+
+exit
