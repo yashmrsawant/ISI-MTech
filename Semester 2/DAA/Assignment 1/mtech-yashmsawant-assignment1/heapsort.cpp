@@ -1,4 +1,12 @@
 #include "commons.h"
+/*
+// heapsort_iterative: Implements heapsort iteratively by building the heap and then repeatedly deleting the maximum element.
+// maxheapify: Recursively restores the heap property starting from a given node in the heap.
+// delete_max: Deletes the maximum element from the heap.
+// heapsort: Recursively performs heapsort by repeatedly deleting the maximum element.
+// buildheap: Builds a max heap from the given array.
+// heapsort_recursive: Performs heapsort recursively by building the heap and then sorting it.
+*/
 
 void heapsort_iterative(int* numbers_p, int size, int* numbers_pa, struct timeval* time_start_p, struct timeval* time_end_p) {
 
